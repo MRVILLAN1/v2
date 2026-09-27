@@ -1,4 +1,4 @@
-FROM python:3.10.4-slim
+FROM python:3.11-slim
 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y git curl wget bash neofetch ffmpeg software-properties-common
